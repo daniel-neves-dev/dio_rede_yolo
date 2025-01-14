@@ -27,3 +27,27 @@
 - **Rede Yolo
 - **Python 3 v3.12
 -----------------------------------------------------------
+## Instalação e Setup:
+
+Clone the project
+
+```bash
+  git clone https://github.com/daniel-neves-dev/rede_yolo.git
+```
+
+Go to the project directory
+
+```bash
+  cd rede_yolo
+```
+
+Install ultralytics
+
+```bash
+  pip install ultralytics
+```
+
+On the terminal type
+
+```bash
+  python3 main.py
