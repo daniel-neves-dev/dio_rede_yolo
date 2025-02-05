@@ -6,48 +6,50 @@
 <p>Este projeto foi desenvolvido como parte do Bootcamp BairesDev - Machine Learning Practitioner, oferecido pela Digital Innovation One (DIO). 
   O objetivo deste desafio é gerar imagens de detecção a partir de uma rede já treinada.</p>
 
--------------------------------------------------------
-![city.jpg](city.jpg)
--------------------------------------------------------
+<table>
+  <tr>
+    <td ><img src="city.jpg"></td>
+    <td ><img src="images_result/city_yolo.PNG"></td>
+  </tr>
+</table>
 
 -------------------------------------------------------
-![city_yolo.PNG](images_result/city_yolo.PNG)
+
+<table>
+  <tr>
+    <td ><img src="table.jpg"></td>
+    <td ><img src="images_result/table_yolo.PNG"></td>
+  </tr>
+</table>
+
 -------------------------------------------------------
 
+## 👨‍💻 Tecnologias Usadas:
 
--------------------------------------------------------
-![table.jpg](table.jpg)
--------------------------------------------------------
-
--------------------------------------------------------
-![table_yolo.PNG](images_result/table_yolo.PNG)
--------------------------------------------------------
-## Tecnologias Usadas
-
-- **Rede Yolo
-- **Python 3 v3.12
+- Rede Yolo
+- Python 3 v3.12
 -----------------------------------------------------------
-## Instalação e Setup:
+## ⚙  Instalação e Setup:
 
-Clone the project
+Clonar o projeto:
 
 ```bash
   git clone https://github.com/daniel-neves-dev/rede_yolo.git
 ```
 
-Go to the project directory
+Abrir pasta do projeto:
 
 ```bash
   cd rede_yolo
 ```
 
-Install ultralytics
+Instalar ultralytics:
 
 ```bash
   pip install ultralytics
 ```
 
-On the terminal type
+No terminal digite
 
 ```bash
   python3 main.py
